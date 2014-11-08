@@ -1,6 +1,6 @@
 <?php
 // This file is part of CorrectWriting question type - https://code.google.com/p/oasychev-moodle-plugins/
-//
+//Изменения вносила Поцелуйко А.С.
 // CorrectWriting question type is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or

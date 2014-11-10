@@ -380,11 +380,8 @@ class  qtype_correctwriting_sequence_analyzer extends qtype_correctwriting_abstr
             $responseused[$responseindex] = true;
         }
 
-
-        $options = $this->question->token_comparing_options();
-
         // Determine removed and moved lexemes by scanning answer
-        for ($i = 0;$i < $answercount;$i++) {
+        for ($i = 1;$i < $answercount;$i++) {
             // If this lexeme is not in LCS
             if ($answerused[$i] == false) {
                 // Determine, whether lexeme is simply moved by scanning response or removed
